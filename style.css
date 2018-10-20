@@ -1,33 +1,29 @@
-/*div {
-	background-color: blue;
-	color: white;
-	padding: 15px;
-}*/
 @media (min-width: 320px) {
 	.container {
 		background-color: navy;
 		color: white;
-		width: 100%;
+		text-align: center;
+		
 	}
 }
 @media (min-width: 768px) {
 	.container {
-		width: 50%;
+		
 		background-color: red;
 		color: grey;
 		text-decoration: underline;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 990px) {
 	.container {
-		width: 33%;
+		
 		background-color: green;
 		text-decoration: none;
 	}
 }
 @media (min-width: 1024px) {
 	.container {
-		width: 25%;
+		
 		background-color: black;
 		color: white;
 	}
