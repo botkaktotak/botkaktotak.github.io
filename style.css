@@ -3,3 +3,8 @@
 	color: white;
 	padding: 15px;
 }
+@media (min-width: 425px){
+	div {
+		background-color: red;
+	}
+}
