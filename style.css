@@ -7,7 +7,7 @@ div {
 }
 nav {
 	float: right;
-	margin-top: 30px;	
+	margin-top: 35px;	
 }
 header {
 	background-color: #CADBED;
@@ -19,7 +19,6 @@ input {
 	margin-left: 400px;
 	float: right;
 	margin-top: -25px;
-	background: url(img/searchbox.png) no-repeat center left;
 }
 .container {
 	width: 940px;
@@ -38,9 +37,12 @@ input {
 	float: left;
 	display: block;
 	margin-right: 40px;
+	border-right: 1px solid #3173B9;
+	border-left: 1px solid #3173B9;
 }
 .menu a {
 	color: #3276BB;
 	text-decoration: none;
 	font-size: 20px;
+	
 }
