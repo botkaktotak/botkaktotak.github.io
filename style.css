@@ -20,6 +20,9 @@ input {
 	float: right;
 	margin-top: -25px;
 }
+input::-webkit-input-placeholder {
+	color: #3276BB;
+}
 .container {
 	width: 940px;
 	margin: 0 auto;
@@ -45,7 +48,4 @@ input {
 	text-decoration: none;
 	font-size: 20px;
 	
-}
-input::-webkit-input-placeholder {
-	color: #3276BB;
 }
