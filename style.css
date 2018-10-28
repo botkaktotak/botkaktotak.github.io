@@ -56,10 +56,3 @@ body {
 input {
 	display: block;
 }
-.pos {
-	position: relative;
-}
-.logo {
-	position: absolute;
-	top: 0;
-}
