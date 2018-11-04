@@ -53,10 +53,80 @@ body {
 	width: 75%;
 
 }
-input {
-	display: block;
-
-}
-img {
+.logo {
 	margin-top: 10px;
+}
+nav {
+	position: relative;
+	
+}
+.arrow {
+	position: absolute;
+	margin-left: 260px;
+	margin-top: 17px;
+}
+.search {
+	margin-top: 7px;
+	position: relative;	
+}
+input[type='text']{
+    border: none;
+    
+}
+input::-webkit-input-placeholder { 
+	color: #2c71b8; 
+}
+input:required {
+	border: 1px solid #2c71b8 ;
+	margin-left: 30px;
+	width: 200px;
+	height: 40px;
+	color: #2c71b8;
+	font-size: 21px;
+	background-color: #CADBED;
+}
+input {
+	padding: 0 36px;
+}
+.lens {
+	float: right;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: #2c71b8;
+	left: 195px;
+	top: 5px;
+}
+.icon {
+	padding: 8px;
+}
+.lactcol-1 {
+	width: 75%;
+}
+.lascol-2 {
+	width: 25%;
+	float: right;
+	position: relative;
+}
+.pocket {
+	margin-left: 22px;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+}
+.block {
+	width: 20px;
+	height: 20px;
+	background-color: #2c71b8;
+	border-radius: 10px;
+	position: absolute;
+	top: -8px;
+	left: 240px;
+	color: white;
+	text-align: center;
+}
+.basket {
+	position: absolute;
+	top: 20px;
+	left: 20px;
 }
