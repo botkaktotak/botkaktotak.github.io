@@ -84,76 +84,73 @@ body {
   left: 118px;
   top: 15px;
 }
-.input {
-	width: 75%;
-
-}
 .logo {
 	margin-top: 10px;
 }
-
 .search {
-	margin-top: 7px;
-	position: relative;	
+  width: 75%;
+  margin: 0;
+  float: left;
 }
-input[type='text']{
-    border: none;
-    
+.box {
+  width: 25%;
+  float: right;
+  position: relative;
 }
-input::-webkit-input-placeholder { 
-	color: #2c71b8; 
+text {
+  border: none;
 }
-input:required {
-	border: 1px solid #2c71b8 ;
-	margin-left: 30px;
-	width: 200px;
-	height: 40px;
-	color: #2c71b8;
-	font-size: 21px;
-	background-color: #CADBED;
+.bar {
+  width: 200px;
+  height: 40px;
+  border: 1px solid #2c71b8;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 5px;
+  line-height: 38px;
+}
+input::-webkit-input-placeholder {
+  color: #2c71b8;
+  font-size: 21px;
+  padding-left: 20px;
 }
 input {
-	padding: 0 36px;
+  width: 199px;
+  height: 39px;
+  background: transparent;
+  border: 0px;
+  line-height: 39px;
 }
 .lens {
-	float: right;
-	position: absolute;
-	width: 30px;
-	height: 30px;
-	background-color: #2c71b8;
-	left: 195px;
-	top: 5px;
-}
-.icon {
-	padding: 8px;
-}
-.lactcol-1 {
-	width: 75%;
-}
-.lascol-2 {
-	width: 25%;
-	float: right;
-	position: relative;
-}
-.pocket {
-	margin-left: 22px;
-	width: 40px;
-	height: 40px;
-	background-color: white;
-}
-.block {
-	width: 20px;
-	height: 20px;
-	background-color: #2c71b8;
-	border-radius: 10px;
-	position: absolute;
-	top: -8px;
-	left: 240px;
-	color: white;
-	text-align: center;
+  width: 30px;
+  height: 30px;
+  background-color: #2c71b8;
+  position: absolute;
+  left: 163px;
+  top: 4px;
+  background-image: url("img/search.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .basket {
-	position: absolute;
-	top: 20px;
-	left: 20px;
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+  margin-top: 5px;
+  background-color: white;
+  background-image: url("img/box.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.num {
+  background-color: #2c71b8;
+  position: absolute;
+  left: 20px;
+  top: -5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  line-height: 20px;
 }
