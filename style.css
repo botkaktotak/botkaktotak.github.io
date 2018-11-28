@@ -295,10 +295,43 @@ select {
   height: 40px;
   background-color: #2c71b8;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   border: 1px solid white;
 }
-#text {
+#laptop {
+  display: none;
+}
+#tablet {
+  display: none;
+}
+#black {
+  display: none;
+}
+#red {
+  display: none;
+}
+#green {
+  display: none;
+}
+#blue {
+  display: none;
+}
+#orange {
+  display: none;
+}
+#ram1 {
+  display: none;
+}
+#ram2 {
+  display: none;
+}
+#ram4 {
+  display: none;
+}
+#ram6 {
+  display: none;
+}
+#ram8 {
   display: none;
 }
 label {
