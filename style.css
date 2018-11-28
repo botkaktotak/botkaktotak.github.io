@@ -351,3 +351,7 @@ label:before {
 input:checked + label:before  {
   background-color: white;
 }
+.sup {
+  vertical-align: super;
+  font-size: 30px;
+}
