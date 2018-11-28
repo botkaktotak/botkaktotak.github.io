@@ -228,6 +228,10 @@ h3 {
   font-size: 21px;
 }
 .randombox1 {
+  background-image: url("img/randombox.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
   width: 30px;
   height: 30px;
   border: 1px solid #2c71b8;
@@ -236,12 +240,28 @@ h3 {
   top: 10px;
 }
 .randombox2 {
+  background-image: url("img/like.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
   width: 30px;
   height: 30px;
   border: 1px solid #2c71b8;
   position: absolute;
   right: 11px;
   top: 49px;
+}
+.randombox1:hover {
+  background-image: url("img/div.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #2c71b8;
+}
+.randombox2:hover {
+  background-image: url("img/whitelike.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #2c71b8;
 }
 h2 {
   text-align: center;
