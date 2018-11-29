@@ -157,6 +157,8 @@ input {
 .slider {
   height: 400px;
   background-color: rgba(5,45,104,0.4);
+  width: 1170px;
+  margin: 0 auto;
 }
 .filtr {
   color: white;
@@ -410,7 +412,7 @@ input:checked + label:before  {
   height: 155px;
   line-height: 155px;
   font-size: 35px;
-  
+
 }
 footer {
   height: 100px;
