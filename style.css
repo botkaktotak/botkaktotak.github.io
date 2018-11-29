@@ -404,3 +404,19 @@ input:checked + label:before  {
   vertical-align: super;
   font-size: 30px;
 }
+.ending {
+  text-align: center;
+  color: white;
+  height: 155px;
+  line-height: 155px;
+  font-size: 35px;
+  
+}
+footer {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #2c71b8;
+  background-color: rgba(255,255,255,0.7);
+  font-size: 20px;
+}
