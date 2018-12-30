@@ -16,21 +16,21 @@ body {
 /* md-размер (<=991px) */
 @media (max-width: 991px) {
   .display-2 {
-    font-size: 50px;
+    font-size: 55px;
     }/* CSS для ширины от 768px до 991px */
 }
 
 /* sm-размер (<=768px) */
 @media (max-width: 767px) {
   .display-2 {
-    font-size: 40px;
+    font-size: 50px;
     }/* CSS для ширины от 576px до 767px */
 }
 
 /* xs-размер (<=575px) */
 @media (max-width: 575px) {
   .display-2 {
-    font-size: 25px;
+    font-size: 35px;
     }/* CSS для ширины до 575px (включительно) */
 }
 @media (max-width: 1199px) {
@@ -42,21 +42,21 @@ body {
 /* md-размер (<=991px) */
 @media (max-width: 991px) {
   .lead {
-    font-size: 15px;
+    font-size: 18px;
     }/* CSS для ширины от 768px до 991px */
 }
 
 /* sm-размер (<=768px) */
 @media (max-width: 767px) {
   .lead {
-    font-size: 10px;
+    font-size: 15px;
     }/* CSS для ширины от 576px до 767px */
 }
 
 /* xs-размер (<=575px) */
 @media (max-width: 575px) {
   .lead {
-    font-size: 5px;
+    font-size: 15px;
     }/* CSS для ширины до 575px (включительно) */
 }
 /*.display-2 {
