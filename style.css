@@ -7,12 +7,64 @@ body {
   color: white;
   text-align: center;
 }
-.display-2 {
+@media (max-width: 1199px) {
+  .display-2 {
+    font-size: 60px;
+    }/* CSS для ширины от 992px до 1199px */
+}
+
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  .display-2 {
+    font-size: 50px;
+    }/* CSS для ширины от 768px до 991px */
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  .display-2 {
+    font-size: 40px;
+    }/* CSS для ширины от 576px до 767px */
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  .display-2 {
+    font-size: 25px;
+    }/* CSS для ширины до 575px (включительно) */
+}
+@media (max-width: 1199px) {
+  .lead {
+    font-size: 20px;
+    }/* CSS для ширины от 992px до 1199px */
+}
+
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  .lead {
+    font-size: 15px;
+    }/* CSS для ширины от 768px до 991px */
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  .lead {
+    font-size: 10px;
+    }/* CSS для ширины от 576px до 767px */
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  .lead {
+    font-size: 5px;
+    }/* CSS для ширины до 575px (включительно) */
+}
+/*.display-2 {
   font-size: 6vw;
 }
 .lead {
   font-size: 2vw;
-}
+}*/
 .main {
   margin-top: 10px;
 }
