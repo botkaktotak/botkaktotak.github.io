@@ -1,316 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>shop project</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-  	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	
-	<header class="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					<div class="pos">
-						<div class="logo">
-							<a href="">
-								<img src="img/logo.png" alt="">
-							</a>
-						</div>
-					</div>	
-				</div>
-				<div class="col-md-6">
-					 	<nav class="navigation row">
-           				 	<ul class="menu">
-             					<li><a href="#">Home</a></li>
-             					<li><a href="#">Products</a>
-                				<img src="img/arrow.png" class="arrow">
-               						<ul class="submenu">
-					                    <li><a href="#">Lorem ipsum dolor</a></li>
-					                    <li><a href="#">Sit amet</a></li>
-					                    <li><a href="#">Consectetur adipiscing</a></li>
-					                    <li><a href="#">Tempor incididunt</a></li>
-					                    <li><a href="#">Dolore magna aliqua</a></li>
-					                    <li><a href="#">Ut enim ad minim veniam</a></li>
-					                    <li><a href="#">Quis nostrud</a></li>
-                    				</ul>
-            					</li>
-            					<li><a href="#">Payments</a></li>
-            					<li><a href="#">Shipping</a></li>
-            				</ul>
-        				</nav>
-				</div>
-				<div class="col-md-3">
-					<div class="input row">
-            			<div class="search">
-              				<div class="bar">
-                				<input type="text" placeholder="search">
-                				<div class="lens"></div>
-              				</div>
-            			</div>
-            			<div class="box">
-              				<div class="basket"></div>
-              				<div id="products-count" class="num">0</div>
-            			</div>
-          			</div>		
-				</div>
-			</div>
-		</div>				
-	</header>
-	<div class="slider">
-    	<!-- <div class="container">
- -->			<div class="sl_pic"><img src="img/slider1.png" alt=""></div>
-    			<div class="sl_pic"><img src="img/slider2.png" alt=""></div>
-			    <div class="sl_pic"><img src="img/slider3.jpg" alt=""></div>
-			    <div class="sl_pic"><img src="img/slider4.jpg" alt=""></div>
-    	<!-- </div> -->
-	</div>	
-	<main class="main">
-		<div class="container">
-      		<div class="row">
-        		<div class="col-md-3">
-         			<div class="filtr">
-			            <h4>DEVICE TYPE</h4><br>
-			                <input type="checkbox" id="laptop">
-            				<label for="laptop">Laptop</label><br><br>
-			              <input type="checkbox" id="tablet">
-            				<label for="tablet">Tablet</label><br><br>
-			            <h4>COLOR</h4><br>
-			              	<input type="checkbox" id="black">
-            				<label for="black">Black</label><br><br>
-			              	<input type="checkbox" id="red">
-            				<label for="red">Red</label><br><br>
-			              	<input type="checkbox" id="green">
-            				<label for="green">Green</label><br><br>
-			              	<input type="checkbox" id="blue">
-            				<label for="blue">Blue</label><br><br>
-			              	<input type="checkbox" id="orange">
-            				<label for="orange">Orange</label><br><br>
-			            <h4>RAM</h4><br>
-			              	<input type="checkbox" id="ram1">
-            				<label for="ram1">1GB</label><br><br>
-			              	<input type="checkbox" id="ram2">
-            				<label for="ram2">2GB</label><br><br>
-			              	<input type="checkbox" id="ram4">
-            				<label for="ram4">4GB</label><br><br>
-			              	<input type="checkbox" id="ram6">
-            				<label for="ram6">6GB</label><br><br>
-			              	<input type="checkbox" id="ram8">
-            				<label for="ram8">8GB</label><br><br>
-			              	<p>Show more options ...</p><br>
-			            <button type="button" name="button" class="firstbut">SUBMIT</button><br>
-          			</div>
-       			</div>
-       			<div class="col-md-9">
-        			<div class="breadcrumbs">
-			            <h5> Home page > Products > Laptops and tablets</h5>
-			            <h1>Laptops and tablets</h1>
-			            <select class="">
-			              	<option value="sort by price">sort by price</option>
-			              	<option value="sort by date">sort by date</option>
-			              	<option value="sort by popylarity">sort by popylarity</option>
-			            </select>
-            		</div>
-        		<div class="col-md-4">
-            		<div class="firstcol">
-             			<div class="desktop">
-                			<img src="img/desktop.png" class="image">
-                			<div class="randombox1">
-                			</div>
-               				<div class="randombox2">	
-                			</div>
-              			</div>
-            			<div class="description">
-			                <h3>#1 Device name</h3><br>
-			                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
-			                <p class="info">TYPE:Laptop</p><br>
-			                <p class="info">SCREEN SIZE:7 inches</p><br>
-			                <p class="info">RAM:1 GB</p><br>
-			                <h2>$599 <sup class="sup">25</sup></h2><br>
-			                <button type="button" name="button" class="button1">MORE DETAILS</button><br>
-			                <button type="button" name="button" class="button2 add-to-cart">ADD TO CART</button>
-            			</div>
-            		</div>
-            		<div class="fourthcol">
-             			<div class="desktop">
-                			<img src="img/laptop.png" class="image">
-                			<div class="randombox1">	
-                			</div>
-               				<div class="randombox2">	
-                			</div>
-              			</div>
-            			<div class="description">
-			                <h3>#4 Device name</h3><br>
-			                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
-			                <p class="info">TYPE:Laptop</p><br>
-			                <p class="info">SCREEN SIZE:7 inches</p><br>
-			                <p class="info">RAM:1 GB</p><br>
-			                <h2>$599 <sup class="sup">25</sup></h2><br>
-			                <button type="button" name="button" class="button1">MORE DETAILS</button><br>
-			                <button type="button" name="button" class="button2 add-to-cart">ADD TO CART</button>
-            			</div>
-            		</div>
-            		<div class="seventhcol">
-             			<div class="desktop">
-                			<img src="img/ipad.png" class="image">
-                			<div class="randombox1">	
-                			</div>
-               				<div class="randombox2">	
-                			</div>
-              			</div>
-            			<div class="description">
-			                <h3>#7 Device name</h3><br>
-			                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
-			                <p class="info">TYPE:Laptop</p><br>
-			                <p class="info">SCREEN SIZE:7 inches</p><br>
-			                <p class="info">RAM:1 GB</p><br>
-			                <h2>$599 <sup class="sup">25</sup></h2><br>
-			                <button type="button" name="button" class="button1">MORE DETAILS</button><br>
-			                <button type="button" name="button" class="button2 add-to-cart">ADD TO CART</button>
-            			</div>
-            		</div>
-        		</div>
-        		<div class="col-md-4">
-            		<div class="secondcol">
-              			<div class="desktop">
-                			<img src="img/xbox.png" class="image">
-               				<div class="randombox1">	
-                			</div>
-                			<div class="randombox2">	
-                			</div>
-              			</div>
-            			<div class="description">
-			                <h3>#2 Device name</h3><br>
-			                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
-			                <p class="info">TYPE:Laptop</p><br>
-			                <p class="info">SCREEN SIZE:7 inches</p><br>
-			                <p class="info">RAM:1 GB</p><br>
-			                <h2>$1250 <sup class="sup">99</sup></h2><br>
-			                <button type="button" name="button" class="button1">MORE DETAILS</button><br>
-			                <button type="button" name="button" class="button2 add-to-cart">ADD TO CART</button>
-            			</div>
-            		</div>
-            		<div class="fifthcol">
-             			<div class="desktop">
-                			<img src="img/mp3.png" class="image">
-                			<div class="randombox1">	
-                			</div>
-               				<div class="randombox2">	
-                			</div>
-              			</div>
-            			<div class="description">
-			                <h3>#5 Device name</h3><br>
-			                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
-			                <p class="info">TYPE:Laptop</p><br>
-			                <p class="info">SCREEN SIZE:7 inches</p><br>
-			                <p class="info">RAM:1 GB</p><br>
-			                <h2>$1250 <sup class="sup">25</sup></h2><br>
-			                <button type="button" name="button" class="button1">MORE DETAILS</button><br>
-			                <button type="button" name="button" class="button2 add-to-cart">ADD TO CART</button>
-            			</div>
-            		</div>
-            		<div class="eighthcol">
-             			<div class="desktop">
-                			<img src="img/xbox.png" class="image">
-                			<div class="randombox1">	
-                			</div>
-               				<div class="randombox2">	
-                			</div>
-              			</div>
-            			<div class="description">
-			                <h3>#8 Device name</h3><br>
-			                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
-			                <p class="info">TYPE:Laptop</p><br>
-			                <p class="info">SCREEN SIZE:7 inches</p><br>
-			                <p class="info">RAM:1 GB</p><br>
-			                <h2>$1250 <sup class="sup">25</sup></h2><br>
-			                <button type="button" name="button" class="button1">MORE DETAILS</button><br>
-			                <button type="button" name="button" class="button2 add-to-cart">ADD TO CART</button>
-            			</div>
-            		</div>
-        		</div>
-        		<div class="col-md-4">
-            		<div class="thirdcol">
-            			<div class="desktop">
-                			<img src="img/watch.png" class="image">
-               				<div class="randombox1">	
-                			</div>
-                			<div class="randombox2">	
-                			</div>
-              			</div>
-              			<div class="description">
-			                <h3>#3 Device name</h3><br>
-			                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
-			                <h4</h4><p class="info">TYPE:Laptop</p><br>
-			                <h4></h4><p class="info">SCREEN SIZE:7 inches</p><br>
-			                <h4></h4><p class="info">RAM:1 GB</p><br>
-			                <h2>$399 <sup class="sup">25</sup></h2><br>
-			                <button type="button" name="button" class="button1">MORE DETAILS</button><br>
-			                <button type="button" name="button" class="button2 add-to-cart">ADD TO CART</button>
-            			</div>
-            		</div>
-            		<div class="sixthcol">
-             			<div class="desktop">
-                			<img src="img/iphone.png" class="image">
-                			<div class="randombox1">	
-                			</div>
-               				<div class="randombox2">	
-                			</div>
-              			</div>
-            			<div class="description">
-			                <h3>#6 Device name</h3><br>
-			                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
-			                <p class="info">TYPE:Laptop</p><br>
-			                <p class="info">SCREEN SIZE:7 inches</p><br>
-			                <p class="info">RAM:1 GB</p><br>
-			                <h2>$399 <sup class="sup">25</sup></h2><br>
-			                <button type="button" name="button" class="button1">MORE DETAILS</button><br>
-			                <button type="button" name="button" class="button2 add-to-cart">ADD TO CART</button>
-            			</div>
-            		</div>
-            		<div class="ninethcol">
-             			<div class="desktop">
-                			<img src="img/watch.png" class="image">
-                			<div class="randombox1">	
-                			</div>
-               				<div class="randombox2">	
-                			</div>
-              			</div>
-            			<div class="description">
-			                <h3>#9 Device name</h3><br>
-			                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
-			                <p class="info">TYPE:Laptop</p><br>
-			                <p class="info">SCREEN SIZE:7 inches</p><br>
-			                <p class="info">RAM:1 GB</p><br>
-			                <h2>$399 <sup class="sup">25</sup></h2><br>
-			                <button type="button" name="button" class="button1">MORE DETAILS</button><br>
-			                <button type="button" name="button" class="button2 add-to-cart">ADD TO CART</button>
-            			</div>
-            		</div>
-        		</div>
-        	</div>
-    	</div>
-    </div>
-	</main>
-	<div class="container">
-		<div class="ending">
-            			Load more...
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
-	</div>
-	<footer class="footer">
-		©Copyright 2018
-	</footer>
+      </div><!--container-->
+    </nav> <!--nav-->
+    <header class="header d-flex flex-column justify-content-center">
+      <div class="container">
+        <h1 class="display-2">Best website on Bootstrap 4</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </header>
+  <main class="main">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 order-3 order-lg-1">
+          <div class="card" style="border-radius: 10px;">
+              <img class="card-img-top" src="images/author.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">About me</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <!-- <a href="#" class="btn btn-dark">Go to my work</a> -->
+            </div>
+          </div>
+            <h3>Subscribe</h3>
+          <div class="block">
+            <form method="post" action="/">
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <button type="submit" class="btn btn-success btn-block">Submit</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-8 order-1 order-lg-2">
+          <div class="card mb-4" style="border-radius: 10px;">
+              <img class="card-img-top" src="images/photo-1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Post title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <a href="#" class="btn btn-outline-dark btn-sm">Read more</a>
+            </div>
+          </div>
+          <div class="card mb-4" style="border-radius: 10px;">
+              <img class="card-img-top" src="images/photo-2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Post title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <a href="#" class="btn btn-outline-dark btn-sm">Read more</a>
+            </div>
+          </div>
+          <div class="card mb-4" style="border-radius: 10px;">
+              <img class="card-img-top" src="images/photo-3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Post title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <a href="#" class="btn btn-outline-dark btn-sm">Read more</a>
+            </div>
+          </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item  active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+        </div><!--col-6-->
+
+        <div class="col-lg-3 col-md-4 order-2 order-lg-3">
+          <div class="list-group mb-4">
+            <a href="#" class="list-group-item list-group-item-action active">
+              Section 1
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">Section 2</a>
+            <a href="#" class="list-group-item list-group-item-action">Section 3</a>
+            <a href="#" class="list-group-item list-group-item-action">Section 4</a>
+            <a href="#" class="list-group-item list-group-item-action">Section 5</a>
+          </div>
+          <h3>Tags Cloud</h3>
+          <div class="block">
+            <a href="#" class="badge badge-info">travel</a>
+            <a href="#" class="badge badge-info">rest</a>
+            <a href="#" class="badge badge-info">mountain</a>
+            <a href="#" class="badge badge-info">world</a>
+            <a href="#" class="badge badge-info">nature</a>
+            <a href="#" class="badge badge-info">photos</a>
+          </div>
+          <h3>Gallery</h3>
+          <div class="block">
+            <div class="row no-gutters">
+              <div class="col-6">
+                <img class="img-fluid" src="images/gallery-1.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img class="img-fluid" src="images/gallery-2.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img class="img-fluid" src="images/gallery-3.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img class="img-fluid" src="images/gallery-4.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img class="img-fluid" src="images/gallery-5.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img class="img-fluid" src="images/gallery-6.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div><!--col-3-->
 
 
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  	<script type="text/javascript" src="slick/slick.min.js"></script>
-  	<script src="app.js"></script>
+      </div><!--row-->
+    </div><!--container-->
+  </main><!--main-->
 
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12">
+          <h3>Traveler's blog</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h3>Contacts</h3>
+          <address class="">
+            <b>Twitter Inc.</b> <br>
+            1355 Marker st. Suit 900 <br>
+            San Francisco, CA 977345 <br>
+            P: (123) 4545.45654.123
+          </address>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h3>Navigation</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer><!--footer-->
+  <div class="copyright">
+    <div class="container">
+      <img src="images/logo.png" alt="">
+      <p>©Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+    </div>
+  </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 </body>
 </html>
